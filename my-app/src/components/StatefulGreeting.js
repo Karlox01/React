@@ -4,7 +4,7 @@ import React from "react"; // You could also do it this way import React { Compo
 class StatefulGreeting extends React.Component {
 
     constructor(props) {
-        super(props);
+        super(props); // You must always call the super function inside a constructor function, This ensure the react.component is also called.
         this.state = {
             introduction: "Hello!",
             buttonText: "Exit",

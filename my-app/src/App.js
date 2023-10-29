@@ -13,6 +13,7 @@ import MethodsAsPropsChild from './components/handlingEvents/MethodsAsPropsChild
 import MethodsAsPropsParent from './components/handlingEvents/MethodsAsPropsParent';
 import RenderingLists from './components/Lists/RenderingLists';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
 
 // function App() {
 //   return (
@@ -73,10 +74,18 @@ import LifeCyclesCDM from './components/LifeCyclesCDM';
 //   );
 // }
 
+// function App() {
+//   return (
+//   <div className="App">
+//     <LifeCyclesCDM />
+//   </div>
+//   );
+// }
+
 function App() {
   return (
   <div className="App">
-    <LifeCyclesCDM />
+    <LifeCyclesCDU />
   </div>
   );
 }

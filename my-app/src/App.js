@@ -11,7 +11,8 @@ import ConditionalRenderingFunctional from './components/handlingEvents/Conditio
 import NestingComponents from './components/handlingEvents/NestingComponents';
 import MethodsAsPropsChild from './components/handlingEvents/MethodsAsPropsChild';
 import MethodsAsPropsParent from './components/handlingEvents/MethodsAsPropsParent';
-import RenderingLists from './components/RenderingLists';
+import RenderingLists from './components/Lists/RenderingLists';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
 
 // function App() {
 //   return (
@@ -64,13 +65,22 @@ import RenderingLists from './components/RenderingLists';
 //   );
 // }
 
+// function App() {
+//   return (
+//   <div className="App">
+//     <RenderingLists />
+//   </div>
+//   );
+// }
+
 function App() {
   return (
   <div className="App">
-    <RenderingLists />
+    <LifeCyclesCDM />
   </div>
   );
 }
+
 
 
 export default App;

@@ -14,6 +14,7 @@ import MethodsAsPropsParent from './components/handlingEvents/MethodsAsPropsPare
 import RenderingLists from './components/Lists/RenderingLists';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 
 // function App() {
 //   return (
@@ -82,10 +83,18 @@ import LifeCyclesCDU from './components/LifeCyclesCDU';
 //   );
 // }
 
+// function App() {
+//   return (
+//   <div className="App">
+//     <LifeCyclesCDU />
+//   </div>
+//   );
+// }
+
 function App() {
   return (
   <div className="App">
-    <LifeCyclesCDU />
+    <LifeCyclesCWU />
   </div>
   );
 }
